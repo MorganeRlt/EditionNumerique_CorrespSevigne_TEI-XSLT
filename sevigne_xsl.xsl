@@ -70,7 +70,7 @@
                 <div class="container-fluid">
                     <!-- Marque -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="navbar-brand" href="{$pathAccueil}"><img src="logo_ecole.jpg" alt="Logo" style="width:100px;"/></a></li>
+                        <li><a class="navbar-brand" href="{$pathAccueil}"><img src="img/logo_ecole.jpg" alt="Logo" style="width:100px;"/></a></li>
                         <li><h1 class="text-center" style="color:#000000; font-family:'Pinyon Script', cursive; font-weight: bold; font-size:50px;">Correspondance de la marquise de Sévigné</h1></li>
                     </ul>
                     <!-- Liens -->
@@ -111,7 +111,7 @@
                     <!-- Les règles CSS ont été regroupées (sauf rare exception) dans un élément style au début du body. Je me suis par ailleurs appuyée sur la bibliothèque Bootstrap pour le style -->
                     <style>
                         body {
-                        background: url('portrait_femme_lettre.jpg') no-repeat center center fixed;
+                        background: url('img/portrait_femme_lettre.jpg') no-repeat center center fixed;
                         -webkit-background-size: cover;
                         -moz-background-size: cover;
                         background-size: cover;
@@ -212,7 +212,7 @@
                     </style>
                     <xsl:copy-of select="$navbar"/>
                     <div class="media">
-                        <img src="lettre_sevigne_a_sa_fille_le_2_fevrier_1671.jpg" class="align-self-start mr-2" alt="lettre de la marquise a sa fille 1671" title="Lettre de la marquise de Sévigné à sa fille datée du 2 février 1671" style="max-width: 30%;"/>
+                        <img src="img/lettre_sevigne_a_sa_fille_le_2_fevrier_1671.jpg" class="align-self-start mr-2" alt="lettre de la marquise a sa fille 1671" title="Lettre de la marquise de Sévigné à sa fille datée du 2 février 1671" style="max-width: 30%;"/>
                         <div class="media-body mr-5 mt-4">
                             <h2>Index des lettres</h2>                             
                             <ul><xsl:call-template name="indexLettres"/></ul>                            
@@ -471,7 +471,7 @@
                         <h2>Index des personnes</h2> 
                         <div class="row">
                             <div class="col-3 mx-auto p-4">                                
-                                <img src="portrait_sevigne.jpg" class="align-self-start mr-1 rounded-circle" alt="portrait marquise de sevigne" title="Portrait de la marquise de Sévigné"/>                                
+                                <img src="img/portrait_sevigne.jpg" class="align-self-start mr-1 rounded-circle" alt="portrait marquise de sevigne" title="Portrait de la marquise de Sévigné"/>                                
                             </div>
                             <div class="col-9 mr-0 p-2">                                
                                 <xsl:call-template name="indexPers"/>                                                                
@@ -494,7 +494,7 @@
                     </style>
                     <xsl:copy-of select="$navbar"/>
                     <div class="media">
-                        <img src="chateau_grignan.jpg" class="align-self-start mr-2" alt="chateau grignan" title="Tours du château de Grignan" style="max-width: 40%;"/>
+                        <img src="img/chateau_grignan.jpg" class="align-self-start mr-2" alt="chateau grignan" title="Tours du château de Grignan" style="max-width: 40%;"/>
                         <div class="media-body mr-5 mt-4">
                             <h2>Index des lieux</h2> 
                             <xsl:call-template name="indexPlace"/>                            

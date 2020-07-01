@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Excellent travail d'encodage, bravo ! -->
+<?xml-model href="out/ODD_Sevigne.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Lettres de Madame de Sévigné, de sa famille et de ses amis</title>
+            <title type="subtitle">XI. 1693-1701</title>
+            <title type="subtitle">édition ornée de vingt-cinq portraits dessinés par Devéria,
+               augmentée de plusieurs lettres inédites, des cent-cinq lettres publiées en 1814 par
+               Klostermann, des notes et notices de Grouvelle et des réflexions de l'abbé de
+               Vauxelles ; précédées d'une nouvelle notice biographique sur Mme de Sévigné et
+               accompagnées de notes... par M. Gault de Saint-Germain...</title>
+            <author role="main" ref="#marquise_sevigne">Marie de Rabutin-Chantal, marquise de
+               Sévigné</author>
+            <author role="contributor" ref="#pauline_simiane">Pauline de Grignan, marquise de
+               Simiane</author>
+            <editor ref="#GDSG">Pierre-Marie Gault de Saint-Germain</editor>
+            <respStmt>
+               <resp>Edition numérique d'une correspondance réalisée en janvier 2020 dans le cadre
+                  d'un devoir de XML-TEI du Master 2 Technologies numériques appliquées à l'histoire
+                  à l'Ecole nationale des Chartes</resp>
+               <persName>
+                  <forename>Morgane</forename><surname>Rousselot</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole nationale des Chartes</publisher>
+            <pubPlace>65 rue de Richelieu, Paris</pubPlace>
+            <date when="2020"/>
+         </publicationStmt>
+         <notesStmt>
+            <note xml:id="note1" n="1" decls="#letter1362">Voilà bien des fois <persName ref="#monsieur_barbeyrac">Barbeyrac</persName> dans
+               ce trait de reconnoissance, et pas un mot d'obligeant pour ce grand docteur du
+               dix-septième siècle, dont nous disons un mot plus haut. C'est la manière de
+               <persName ref="#marquise_sevigne">madame de Sévigné</persName>. Pour trouver
+               sous sa plume la politesse et les égards généreux bien assaisonnés, il falloit de
+               la noblesse ; la moindre tache de roture répugnoit à son esprit. <persName
+                  ref="#GDSG"><abbr>G. D. S. G.</abbr></persName></note>
+            
+            <note xml:id="note2" n="1" decls="#letter1363">Voilà certainement un tableau très-curieux sur les mœurs d'un <persName
+                  ref="#cardinal_bouillon">prélat</persName> qui règne sur le duvet de toutes
+               les voluptés. La description de sa table ne pouvoit être mieux faite que par
+               <persName ref="#monsieur_coulanges">Coulanges</persName>, un des fameux
+               gastronomes de son siècle, et si connoisseur en fait de gloutonnerie, qu'il
+               auroit pu entreprendre un supplément au <bibl>traité de <title>Gulœ
+                  irritamentis</title>, qu'un des <author>Apicius</author></bibl> a légué à
+               la postérité. <persName ref="#GDSG"><abbr>G. D. S. G.</abbr></persName></note>
+            
+            <note xml:id="note3" n="2" decls="#letter1363"><persName ref="#presidente_coigneux">La présidente Le Coigneux</persName>.
+               <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f269.item">Voyez
+                  l'apostille de <persName ref="#monsieur_coulanges">Coulanges</persName> sous
+                  la date du <date when="1696-01-27">27 janvier</date><!-- très bien -->
+                  précédent.</ref></note>
+            
+            <note xml:id="note4" n="3" decls="#letter1363"><persName
+               ref="#monsieur_fremont">De Frémont</persName> étoit un riche
+               financier.</note>
+            
+            <note xml:id="note5" n="4" decls="#letter1363">Sur les alliances de la noblesse et de
+               la finance. <ref
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f44.item.r=1694">Voyez
+                  la note sous la date du <date when="1694-05-24">24 mai
+                     1694</date>.</ref></note>
+            
+            <note xml:id="note6" n="5" decls="#letter1363"><persName ref="#madame_pracontal"
+                  >Catherine-Françoise de Mornay-Montchevreuil</persName> avoit épousé le
+               <date when="1693-11-19">19 novembre 1693</date>, <persName
+                  ref="#monsieur_pracontal">Armand de Pracontal</persName>, lieutenant-général
+               des armées du roi. Il avoit succédé à <persName ref="#monsieur_perthuis">M. de
+                  Perthuis</persName> dans le gouvernement de <placeName ref="#menin"
+                     >Menin</placeName> (<bibl><title>Journal</title> de <author>Dangeau</author></bibl>, le <date when="1694-12-14">14 décembre
+                           1694</date>). <persName><abbr>M.</abbr></persName>
+            </note>
+            
+            <note xml:id="note7" n="1" decls="#letter1365"><bibl><author>Dangeau</author></bibl> raconte
+               que le <persName ref="#chevalier_bouillon">chevalier de Bouillon</persName>, qui
+               prenoit le titre de <persName ref="#chevalier_bouillon">prince
+                  d'Auvergne</persName>, avoit tué un traiteur chez qui il mangeoit avec quelques
+               amis. Cette petite gentillesse du privilège fut, il paroît, traitée comme une
+               légèreté ; du moins, on n'y donna aucune suite. En effet <persName
+                  ref="#chevalier_bouillon">ce chevalier</persName>, couvert d'un crime, devoit
+               paroître fort extraordinaire où <persName ref="#monsieur_coulanges"
+                  >Coulanges</persName> le place ici. Voyez les <bibl><title>Mémoires</title> de
+                     <author>Dangeau</author>, tome II</bibl>.</note>
+            
+            <note xml:id="note8" n="2" decls="#letter1365"><persName ref="#madame_bouteville"
+                  >Élisabeth-Angélique de Vienne</persName>, grand'mère du <persName
+                     ref="#monsieur_chatillon">duc de Châtillon</persName>, étoit veuve de <persName
+                        ref="#monsieur_bouteville">François de Montmorenci</persName>, comte de
+               Bouteville : elle mourut le <date when="1696-08-06">6 août</date> suivant, âgée de
+               89 ans, après en avoir passé 69 en viduité.
+               <persName><abbr>D.P.</abbr></persName></note>
+            
+            <note xml:id="note9" n="3" decls="#letter1365"><persName
+               ref="#mademoiselle_luxembourg">Marie-Henriette de
+               Montmorenci-Luxembourg</persName> mourut le <date when="1696-02-11">11
+                  février</date>, quatre jours avant le second mariage de son <persName
+                     ref="#monsieur_luxembourg">père</persName>. <persName>M.</persName></note>
+            
+            <note xml:id="note10" n="4" decls="#letter1365">Le <persName ref="#pere_la_ferte">père de La
+                  Ferté</persName> ne profita pas de la permission de ses supérieurs, parce que
+               ses parents s’y opposèrent. <persName><abbr>D.P.</abbr></persName></note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="main">Lettres de Madame de Sévigné, de sa famille, et de ses
+                     amis</title>
+                  <title type="subtitle">XI. 1693-1701</title>
+                  <title type="subtitle">édition ornée de vingt-cinq portraits dessinés par Devéria,
+                     augmentée de plusieurs lettres inédites, des cent-cinq lettres publiées en 1814
+                     par Klostermann, des notes et notices de Grouvelle et des réflexions de l'abbé
+                     de Vauxelles ; précédées d'une nouvelle notice biographique sur Mme de Sévigné
+                     et accompagnées de notes... par M. Gault de Saint-Germain...</title>
+                  <author role="main" ref="#marquise_sevigne"
+                        ><forename>Marie</forename><nameLink>de</nameLink>
+                     <surname>Rabutin-Chantal,</surname><roleName>marquise de
+                     Sévigné</roleName></author>
+                  <author role="contributor" ref="#pauline_simiane"><forename>Pauline</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Grignan</surname>, <roleName>marquise de Simiane</roleName></author><!-- Très bien -->
+                  <!-- J'indexe le nom de l'éditeur scientifique de l'édition de 1823 pour pouvoir le référencer dans les notes. Je n'ai pas réussi à identifier les deux autres auteurs des notes. -->
+                  <editor xml:id="GDSG">Pierre-Marie Gault de Saint-Germain</editor>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Dalibon</publisher>
+                  <publisher>Imprimerie de Gaultier-Laguionie, successeur de P. Dupont</publisher>
+                  <pubPlace>Palais-Royal, Galerie de Nemours, Paris</pubPlace>
+                  <date when="1823">1823</date>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w?rk=257512;0"
+                     >Bibliothèque Nationale de France</distributor>
+                  <availability>
+                     <licence>Domaine Public</licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title type="main">Lettres de Madame de Sévigné, de sa famille, et de ses
+                     amis</title>
+                  <respStmt>
+                     <resp>Collection publiée en 1823 en 12 volumes</resp>
+                     <persName ref="#GDSG" role="scientific_editor"
+                           ><forename>Pierre-Marie</forename>
+                        <surname>Gault de Saint-Germain</surname></persName>
+                  </respStmt>
+                  <biblScope unit="volume" n="11">Tome XI</biblScope>
+                  <biblScope unit="letter" from="1362" to="1365">Lettres MCCCLXII à
+                     MCCCLXV</biblScope>
+                  <biblScope unit="page" from="265" to="280">pp. 265-280</biblScope>
+               </seriesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Edition électronique des lettres 1362 à 1365 de la marquise de Sévigné (1626-1696) à
+               partir du tome XI de l'édition publiée chez Dalibon en 1823 et numérisée sur le site
+               de Gallica par la Bibliothèque Nationale de France.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc xml:id="letter1362"> <!-- Excellent -->
+            <correspAction type="sent">
+               <persName ref="#marquise_sevigne">Madame de Sévigné</persName>
+               <placeName ref="#chateau_grignan">Grignan</placeName>
+               <date when="1696-02-04">4 février 1696</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#president_moulceau">Président de Moulceau</persName>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="letter1363">
+            <correspAction type="sent">
+               <persName ref="#monsieur_coulanges">Monsieur de Coulanges</persName>
+               <placeName ref="#saint_martin">Saint-Martin</placeName>
+               <date when="1696-02-17">17 février 1696</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#marquise_sevigne">Madame de Sévigné</persName>
+               <placeName ref="#chateau_grignan">Grignan</placeName>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="letter1364">
+            <correspAction type="sent">
+               <persName ref="#monsieur_coulanges">Monsieur de Coulanges</persName>
+               <placeName ref="#paris">Paris</placeName>
+               <date when="1696-02-20">20 février 1696</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#marquise_sevigne #françoise_sevigne">Mesdames de Sévigné et de
+                  Grignan</persName>
+               <placeName ref="#chateau_grignan">Grignan</placeName>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="letter1365">
+            <correspAction type="sent">
+               <persName ref="#monsieur_coulanges">Monsieur de Coulanges</persName>
+               <placeName ref="#paris">Paris</placeName>
+               <date when="1696-02-27">27 février 1696</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pauline_simiane">Madame de Simiane</persName>
+               <placeName ref="#chateau_grignan">Grignan</placeName>
+            </correspAction>
+         </correspDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="chateau_grignan" type="residence"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb12012162z">
+                  <placeName> <!-- très bien -->
+                     <country>France</country>
+                     <region>Auvergne-Rhône-Alpes</region>
+                     <settlement corresp="https://catalogue.bnf.fr/ark:/12148/cb15253007c"
+                        >Grignan</settlement>
+                     <name>Château de Grignan</name>
+                  </placeName>
+                  <note>Château appartenant à la fille de la <persName ref="#marquise_sevigne"
+                        >marquise de Sévigné</persName>, <persName ref="#françoise_sevigne"
+                        >Françoise</persName>, comtesse de Grignan. Les deux femmes y résident en
+                     février 1696.</note>
+               </place>
+               <place xml:id="paris" type="ville"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb11932931q">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <name>Paris</name>
+                  </placeName>
+               </place>
+               <place xml:id="saint_martin" type="abbaye"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb12507777h"
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f41.item.r=1694">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement>Pontoise</settlement>
+                     <name>Abbaye de Saint-Martin</name>
+                  </placeName>
+                  <note>Palais abbatial et ses jardins construits par le <persName
+                        ref="#cardinal_bouillon">cardinal de Bouillon.</persName></note>
+               </place>
+               <place xml:id="porte_saint_antoine" type="porte"
+                  corresp="https://data.bnf.fr/fr/15932438/paris__france__--_porte_saint-antoine/">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement>Paris</settlement>
+                     <district type="arrondissement" n="4">4e</district>
+                     <name>Porte Saint-Antoine</name>
+                  </placeName>
+               </place>
+               <place xml:id="place_royale" type="place">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement>Paris</settlement>
+                     <name>Place Royale</name>
+                  </placeName>
+                  <note>Plusieurs places parisiennes portent ce nom à la fin du XVIIe siècle : la
+                     place des Vosges, la place Dauphine et la place des Victoires. Elles sont
+                     nommées ainsi car elles servent d'écrin à la statue équestre d'un
+                     souverain.</note>
+               </place>
+               <place xml:id="hotel_chaulnes" type="residence"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb119528477">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement>Paris</settlement>
+                     <district type="arrondissement" n="4">4e</district>
+                     <name>Hôtel de Chaulnes</name>
+                  </placeName>
+               </place>
+               <place xml:id="montmartre" type="village"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb152035698">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement>Paris</settlement>
+                     <name>Montmartre</name>
+                  </placeName>
+                  <note>Montmartre est très peu urbanisé et ne fait pas partie de Paris au XVIIe
+                     siècle. Le seul établissement connu est une abbaye royale. Ce n'est qu'au
+                     XVIIIe siècle, avec la mode des folies, que les aristocrates commencent à s'y
+                     installer. Peut-être qu'il est plutôt question de la rue de Montmartre qui
+                     elle, se situe à l'intérieur de la muraille de Philippe Auguste.</note>
+               </place>
+               <place xml:id="versailles" type="ville"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb15276124c">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <name>Versailles</name>
+                  </placeName>
+                  <note>Siège de la Cour depuis 1682.</note>
+               </place>
+               <place xml:id="chateau_meudon" type="residence">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement corresp="https://catalogue.bnf.fr/ark:/12148/cb15280266b"
+                        >Meudon</settlement>
+                     <name>Château de Meudon</name>
+                  </placeName>
+                  <note>Propriété du <persName ref="#monseigneur">Grand Dauphin</persName> qui
+                     l'embellit considérablement.</note>
+               </place>
+               <place xml:id="chateau_marly" type="residence">
+                  <placeName>
+                     <country>France</country>
+                     <region>Ile-de-France</region>
+                     <settlement corresp="https://catalogue.bnf.fr/ark:/12148/cb152760185"
+                        >Marly-le-Roi</settlement>
+                     <name>Château de Marly</name>
+                  </placeName>
+                  <note>Résidence de plaisance de <persName ref="#louis_xiv">Louis XIV</persName>,
+                     construite à partir de 1679 par Jules Hardouin-Mansart.</note>
+               </place>
+               <place xml:id="la_trappe">
+                  <placeName>
+                     <country>France</country>
+                     <name>La Trappe</name>
+                  </placeName>
+               </place>
+               <place xml:id="menin" type="ville">
+                  <placeName>
+                     <country>Belgique</country>
+                     <region>Flandre</region>
+                     <name
+                        ref="https://data.bnf.fr/fr/15080350/15376527/menin__flandre-occidentale__belgique_/"
+                        >Menin</name>
+                  </placeName>
+                  <note>Cédée à la France lors du traité d'Aix-la-Chapelle (1668). Louis XIV y fit
+                     construire une enceinte fortifiée par Vauban.</note>
+               </place>
+               <place xml:id="montelimar" type="ville"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb15253059m">
+                  <placeName>
+                     <country>France</country>
+                     <region>Auvergne-Rhônes-Alpes</region>
+                     <name>Montélimar</name>
+                  </placeName>
+               </place>
+               <place xml:id="lyon" type="ville"
+                  corresp="https://catalogue.bnf.fr/ark:/12148/cb15272211b">
+                  <placeName>
+                     <country>France</country>
+                     <region>Auvergne-Rhônes-Alpes</region>
+                     <name>Lyon</name>
+                  </placeName>
+               </place>
+               <listRelation>
+                  <relation name="owner" active="#chateau_grignan" passive="#françoise_sevigne"/>
+                  <relation name="titular" active="#saint_martin" passive="#cardinal_bouillon"/>
+               </listRelation>
+            </listPlace>
+         </settingDesc>
+         <particDesc> <!-- Très bon travail -->
+            <listPerson type="famille_directe_marquise_sevigne">
+               <person sex="F" xml:id="marquise_sevigne">
+                  <persName ref="https://data.bnf.fr/fr/11924578/marie_de_rabutin-chantal_sevigne/">
+                     <forename>Marie</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Rabutin-Chantal</surname>
+                     <roleName>marquise de Sévigné</roleName>
+                  </persName>
+                  <birth>1626</birth>
+                  <death>1696</death>
+               </person>
+               <person sex="F" xml:id="françoise_sevigne">
+                  <persName
+                     ref="https://data.bnf.fr/fr/12002273/francoise-marguerite_de_sevigne_grignan/">
+                     <forename>Françoise-Marguerite</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Sévigné</surname>
+                     <roleName>comtesse de Grignan</roleName>
+                  </persName>
+                  <birth>1646</birth>
+                  <death>1705</death>
+                  <residence>
+                     <placeName ref="#chateau_grignan">Château de Grignan</placeName>
+                  </residence>
+               </person>
+               <person sex="F" xml:id="pauline_simiane">
+                  <persName ref="https://data.bnf.fr/fr/12002277/pauline_de_grignan_simiane/">
+                     <forename>Pauline</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Grignan</surname>
+                     <roleName>marquise de Simiane</roleName>
+                  </persName>
+                  <birth when="1674">1674</birth>
+                  <death when="1737">1737</death>
+               </person>
+               <listRelation>
+                  <relation name="parents_children" active="#marquise_sevigne"
+                     passive="#françoise_sevigne"/>
+                  <relation name="parents_children" active="#françoise_sevigne"
+                     passive="#pauline_simiane"/>
+                  <relation name="grandparents_grandchildren" active="#marquise_sevigne"
+                     passive="#pauline_simiane"/>
+               </listRelation>
+            </listPerson>
+            <listPerson type="interlocuteurs_marquise_sevigne">
+               <person sex="M" xml:id="president_moulceau">
+                  <persName>
+                     <forename>Philippe</forename>
+                     <surname>Moulceau</surname>
+                     <roleName>Président de Moulceau</roleName>
+                  </persName>
+                  <occupation>Magistrat à la Cour des comptes, aides et finances de
+                     Montpellier.</occupation>
+               </person>
+               <person sex="M" xml:id="monsieur_coulanges">
+                  <persName ref="https://fr.wikipedia.org/wiki/Philippe-Emmanuel_de_Coulanges">
+                     <forename>Philippe-Emmanuel</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Coulanges</surname>
+                     <addName type="nickname">marquis de Coulanges</addName>
+                  </persName>
+                  <birth when="1633">1633</birth>
+                  <death when="1716">1716</death>
+               </person>
+               <person sex="M" xml:id="cardinal_bouillon">
+                  <persName
+                     ref="https://data.bnf.fr/fr/10742003/emmanuel_theodose_de_la_tour_d_auvergne_bouillon/">
+                     <forename>Emmanuel-Théodose</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Tour d'Auvergne</surname>
+                     <roleName>cardinal de Bouillon</roleName>
+                  </persName>
+                  <birth when="1643">1643</birth>
+                  <death when="1715">1715</death>
+                  <note>Abbé de <placeName ref="#saint_martin">Saint-Martin</placeName> de
+                     Pontoise.</note>
+               </person>
+               <listRelation>
+                  <relation name="cousin" active="#marquise_sevigne" passive="#monsieur_coulanges"/>
+               </listRelation>
+            </listPerson>
+            <listPerson type="personnes_citees">
+               <person sex="F" xml:id="duchesse_albret">
+                  <persName ref="https://fr.wikipedia.org/wiki/Marie-Armande_de_La_Tr%C3%A9moille">
+                     <forename>Marie-Armande</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Trémoille</surname>
+                     <roleName>duchesse d'Albret</roleName>
+                  </persName>
+                  <birth when="1677">1677</birth>
+                  <death when="1717">1717</death>
+               </person>
+               <person sex="M" xml:id="duc_albret">
+                  <persName
+                     ref="https://fr.wikipedia.org/wiki/Emmanuel-Th%C3%A9odose_de_La_Tour_d%27Auvergne,_duc_de_Bouillon">
+                     <forename>Emmanuel-Théodose</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Tour d'Auvergne</surname>
+                     <roleName>duc d'Albret, duc de Bouillon</roleName>
+                  </persName>
+                  <birth when="1668">1668</birth>
+                  <death when="1730">1730</death>
+               </person>
+               <person sex="M" xml:id="comte_albret">
+                  <persName>
+                     <forename>?</forename>
+                     <surname>?</surname>
+                     <roleName>comte d'Albret</roleName>
+                  </persName>
+               </person>
+               <person sex="M" xml:id="abbe_d_auvergne">
+                  <persName
+                     ref="https://data.bnf.fr/fr/16296239/henri_oswald_de_la_tour_d_auvergne_albret/">
+                     <forename>Henri-Oswald</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Tour d'Auvergne</surname>
+                  </persName>
+                  <birth when="1670">1670</birth>
+                  <death when="1747">1747</death>
+                  <occupation>abbé</occupation>
+               </person>
+               <person sex="F" xml:id="mademoiselle_bagnols">
+                  <persName>
+                     <forename>Michelle-Gabrielle</forename>
+                     <nameLink>du</nameLink>
+                     <surname type="birth">Gué</surname>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Bagnols</surname>
+                  </persName>
+                  <birth when="1673">1673?</birth>
+                  <death when="1756">1756</death>
+                  <note>Elle épouse finalement <persName ref="monsieur_tillieres">Jacques-Tannegui
+                        Le Veneur</persName>, comte de Tillières.</note>
+               </person>
+               <person sex="M" xml:id="monsieur_barbeyrac">
+                  <persName ref="https://data.bnf.fr/fr/12534745/charles_de_barbeyrac/">
+                     <forename>Charles</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Barbeyrac</surname>
+                  </persName>
+                  <birth when="1629">1629</birth>
+                  <death when="1699">1699</death>
+                  <occupation>médecin</occupation>
+               </person>
+               <person sex="F" xml:id="mademoiselle_bosmelet">
+                  <persName>
+                     <forename>Anne-Marie</forename>
+                     <surname type="birth">Beuzelin</surname>
+                     <surname type="birth">de Bosmelet</surname>
+                  </persName>
+                  <birth when="1668">1668?</birth>
+                  <death when="1752">1752</death>
+               </person>
+               <person sex="M" xml:id="chevalier_bouillon">
+                  <persName>
+                     <forename>Frédéric-Jules</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Tour d'Auvergne</surname>
+                     <roleName>chevalier de Bouillon</roleName>
+                     <addName type="nickname">prince d'Auvergne</addName>
+                  </persName>
+                  <birth when="1672">1672</birth>
+                  <death when="1733">1733</death>
+               </person>
+               <person sex="F" xml:id="madame_bouteville">
+                  <persName>
+                     <forename>Elisabeth</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Vienne</surname>
+                     <roleName>comtesse de Bouteville</roleName>
+                  </persName>
+                  <birth when="1607">1607</birth>
+                  <death when="1696">1696</death>
+               </person>
+               <person sex="M" xml:id="monsieur_bouteville">
+                  <persName
+                     ref="https://data.bnf.fr/fr/10712434/francois_de_montmorency-bouteville/">
+                     <forename>François</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Montmorency</surname>
+                     <roleName>comte de Bouteville</roleName>
+                  </persName>
+                  <birth when="1600">1600</birth>
+                  <death when="1627">1627</death>
+               </person>
+               <person sex="F" xml:id="mademoiselle_brinon">
+                  <persName>
+                     <forename>Marie-Madeleine</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Brinon-Senneterre</surname>
+                  </persName>
+                  <birth when="1673">1673</birth>
+                  <death when="1716">1716</death>
+               </person>
+               <person sex="M" xml:id="monsieur_brinon">
+                  <persName>
+                     <forename>Jean-Charles</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Senneterre</surname>
+                     <roleName>comte de Brinon</roleName>
+                  </persName>
+                  <birth when="1608">1608</birth>
+                  <death when="1696">1696</death>
+               </person>
+               <person sex="F" xml:id="madame_brinon">
+                  <persName>
+                     <forename>Marguerite</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Bauves-Contenant</surname>
+                     <roleName>comtesse de Brinon</roleName>
+                  </persName>
+                  <birth when="1630">1630?</birth>
+                  <death when="1701">1701</death>
+               </person>
+               <person sex="F" xml:id="madame_busseaux">
+                  <persName>
+                     <forename>Jeanne-Ursule</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Pracontal</surname>
+                     <roleName>comtesse de Busseaux</roleName>
+                  </persName>
+                  <death when="1744">1744</death>
+                  <note>Elle est décédée à environ 100 ans.</note>
+               </person>
+               <person sex="M" xml:id="monsieur_chatillon">
+                  <persName
+                     ref="https://data.bnf.fr/fr/16987206/paul-sigismond_de_montmorency-luxembourg/">
+                     <forename>Paul Sigismond</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Montmorency-Luxembourg</surname>
+                     <roleName>duc de Châtillon, comte de Luxe</roleName>
+                  </persName>
+                  <birth when="1664">1664</birth>
+                  <death when="1731">1731</death>
+               </person>
+               <person sex="F" xml:id="presidente_coigneux">
+                  <persName>
+                     <surname>Le Coigneux</surname>
+                  </persName>
+                  <note>Peut-être l'épouse de <persName
+                        ref="https://data.bnf.fr/fr/12274408/francois_le_coigneux_bachaumont/"
+                        >François Le Coigneux Bachaumont</persName> ?</note>
+               </person>
+               <person sex="F" xml:id="madame_coulanges">
+                  <persName ref="https://data.bnf.fr/fr/14456521/marie_angelique_de_coulanges/">
+                     <forename>Marie-Angélique</forename>
+                     <nameLink>du</nameLink>
+                     <surname type="birth">Gué</surname>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Bagnols</surname>
+                  </persName>
+                  <birth when="1641">1641</birth>
+                  <death when="1723">1723</death>
+               </person>
+               <person sex="F" xml:id="duchesse_crequi">
+                  <persName>
+                     <forename>Anne Armande</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Saint-Gelais</surname>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Lansac</surname>
+                     <roleName>duchesse de Créquy</roleName>
+                  </persName>
+                  <birth when="1637">1637</birth>
+                  <death when="1709">1709</death>
+               </person>
+               <person sex="M" xml:id="pere_la_ferte">
+                  <persName>
+                     <forename>Louis</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Ferté-Senneterre</surname>
+                  </persName>
+                  <birth when="1659">1659</birth>
+                  <death when="1732">1732</death>
+                  <occupation>prédicateur jésuite</occupation>
+               </person>
+               <person sex="M" xml:id="monsieur_la_force">
+                  <persName
+                     ref="https://data.bnf.fr/fr/10730619/henri-jacques_nompar_de_caumont_la_force/">
+                     <forename>Henri-Jacques</forename>
+                     <surname type="birth">Nompar</surname>
+                     <surname type="birth">de Caumont</surname>
+                     <roleName>duc de La Force</roleName>
+                  </persName>
+                  <birth when="1675">1675</birth>
+                  <death when="1726">1726</death>
+               </person>
+               <person sex="F" xml:id="madame_fremont">
+                  <persName>
+                     <forename>Marie?</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Frémont</surname>
+                  </persName>
+                  <note>Epouse de Jacques Rioult de Douilly ; fille de <persName
+                        ref="#monsieur_fremont">Nicolas de Frémont</persName> ; soeur de <persName
+                        ref="#marechale_lorges">Geneviève Frémont d'Auneuil</persName>.</note>
+               </person>
+               <person sex="M" xml:id="monsieur_fremont">
+                  <persName>
+                     <forename>Nicolas</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Frémont</surname>
+                     <surname type="birth">d'Auneuil</surname>
+                  </persName>
+                  <occupation>financier</occupation>
+               </person>
+               <person sex="M" xml:id="chevalier_grignan">
+                  <persName>
+                     <forename>Joseph</forename>
+                     <surname type="birth">Adhémar</surname>
+                     <surname type="birth">de Monteil de Grignan</surname>
+                     <addName type="nickname">chevalier de Grignan</addName>
+                  </persName>
+                  <note>Sans doute <persName
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k6334106t/f527.item.r=chevalier%20grignan"
+                        >le frère de François Adhémar de Monteil</persName>, comte de Grignan, époux
+                     de <persName ref="#françoise_sevigne">Françoise Sévigné</persName>.</note>
+               </person>
+               <person sex="M" xml:id="richard_hamilton">
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+               </person>
+               <person sex="M" xml:id="monsieur_lamoignon">
+                  <persName ref="https://data.bnf.fr/fr/16096096/chretien-francois_de_lamoignon/">
+                     <forename>Chrétien-François</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Lamoignon</surname>
+                     <roleName>marquis de Basville</roleName>
+                  </persName>
+                  <birth when="1644">1644</birth>
+                  <death when="1709">1709</death>
+               </person>
+               <person sex="F" xml:id="duchesse_lauzun">
+                  <persName>
+                     <forename>Geneviève-Marie</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Durfort</surname>
+                     <roleName>duchesse de Lauzun</roleName>
+                  </persName>
+                  <birth when="1680">1680?</birth>
+                  <death when="1740">1740?</death>
+                  <note>Elle épouse en 1695, à l'âge de 15 ans, le <persName ref="#monsieur_lauzun"
+                        >duc de Lauzun</persName> alors âgé de 62 ans.</note>
+               </person>
+               <person sex="M" xml:id="monsieur_lauzun">
+                  <persName ref="https://data.bnf.fr/fr/12098262/antonin_nompar_de_caumont_lauzun/">
+                     <forename>Antonin</forename>
+                     <surname type="birth">Nompar</surname>
+                     <surname type="birth">de Caumont</surname>
+                     <roleName>duc de Lauzun</roleName>
+                  </persName>
+                  <birth when="1633">1633</birth>
+                  <death when="1723">1723</death>
+               </person>
+               <person sex="M" xml:id="monsieur_l_hopital">
+                  <persName>
+                     <nameLink>de</nameLink>
+                     <surname>L'Hôpital</surname>
+                  </persName>
+                  <note>Peut-être <persName
+                        ref="https://data.bnf.fr/fr/12000655/guillaume-francois-antoine_de_l_hospital/"
+                        >Guillaume François Antoine, marquis de L'Hôpital</persName></note>
+               </person>
+               <person sex="F" xml:id="marechale_lorges">
+                  <persName>
+                     <forename>Geneviève</forename>
+                     <surname type="birth">Frémont</surname>
+                     <surname type="birth">d'Auneuil</surname>
+                     <roleName>comtesse de Lorges, duchesse de Quintin</roleName>
+                     <addName type="nickname">maréchale de Lorges</addName>
+                  </persName>
+                  <birth when="1659">1659?</birth>
+                  <death when="1727">1727</death>
+                  <note>Epouse depuis 1676 de <persName
+                        ref="https://data.bnf.fr/fr/14953624/guy_de_durfort_lorges/">Guy de Durfort,
+                        maréchal, comte puis duc de Lorges-Quintin</persName>.</note>
+               </person>
+               <person sex="M" xml:id="louis_xiv">
+                  <persName ref="https://data.bnf.fr/fr/11913463/louis_14/">
+                     <forename>Louis</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Bourbon</surname>
+                     <addName>XIV</addName>
+                     <roleName>Roi de France</roleName>
+                  </persName>
+                  <birth when="1638">1638</birth>
+                  <death when="1715">1715</death>
+               </person>
+               <person sex="F" xml:id="madame_louvois">
+                  <persName>
+                     <forename>Anne</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Souvré</surname>
+                     <roleName>marquise de Louvois</roleName>
+                  </persName>
+                  <birth when="1655">1655</birth>
+                  <death when="1727">1727</death>
+                  <note>Epouse du ministre Francois-Michel Le Tellier Louvois ?</note>
+               </person>
+               <person sex="F" xml:id="mademoiselle_luxembourg">
+                  <persName>
+                     <forename>Marie-Henriette</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Montmorency-Luxembourg</surname>
+                  </persName>
+                  <birth when="1692">1692</birth>
+                  <death when="1696">1696</death>
+               </person>
+               <person sex="M" xml:id="monsieur_luxembourg">
+                  <persName>
+                     <forename>Charles François Frédéric</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Montmorency</surname>
+                     <roleName>duc de Piney-Luxembourg</roleName>
+                  </persName>
+                  <birth when="1662">1662</birth>
+                  <death when="1726">1726</death>
+               </person>
+               <person sex="M" xml:id="monsieur_marillac">
+                  <persName>
+                     <forename>René</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Marillac</surname>
+                     <roleName>seigneur d'Ollainville</roleName>
+                  </persName>
+                  <birth when="1639">1639</birth>
+                  <death when="1719">1719</death>
+                  <occupation>conseiller au parlement</occupation>
+                  <note>Son frère, <persName
+                        ref="https://data.bnf.fr/fr/14974112/louis_de_marillac/">Louis
+                        Marillac</persName>, curé de Saint-Jacques-de-la-Boucherie, meurt le 25
+                     février 1696.</note>
+               </person>
+               <person sex="M" xml:id="monsieur_marsan">
+                  <persName>
+                     <forename>Charles</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Lorraine</surname>
+                     <roleName>comte de Marsan</roleName>
+                  </persName>
+                  <birth when="1648">1648</birth>
+                  <death when="1708">1708</death>
+               </person>
+               <person sex="F" xml:id="madame_marsan">
+                  <persName>
+                     <forename>Catherine Thérèse</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Goyon-Matignon</surname>
+                     <roleName>comtesse de Marsan</roleName>
+                     <addName type="first_union">madame de Seignelay</addName>
+                  </persName>
+                  <birth when="1661">1661?</birth>
+                  <death when="1700">1700?</death>
+                  <note>Madame de Marsan était précédemment mariée à <persName
+                        ref="https://data.bnf.fr/fr/13182885/jean-baptiste_antoine_colbert_seignelay/"
+                        >Jean-Baptiste Antoine Colbert</persName>, marquis de Seignelay, avant
+                     d'épouser en seconde noce <persName ref="#monsieur_marsan">Charles de
+                        Lorraine</persName>, comte de Marsan.</note>
+               </person>
+               <person sex="M" xml:id="monseigneur">
+                  <persName ref="https://data.bnf.fr/fr/12510194/louis/">
+                     <forename>Louis</forename>
+                     <nameLink>de</nameLink>
+                     <surname>Bourbon</surname>
+                     <addName type="nickname">Monseigneur</addName>
+                     <addName type="nickname">Grand Dauphin</addName>
+                     <roleName>Dauphin de France</roleName>
+                  </persName>
+                  <birth when="1666">1666</birth>
+                  <death when="1711">1711</death>
+               </person>
+               <person sex="F" xml:id="madame_montchevreuil">
+                  <persName>
+                     <forename>Marguerite</forename>
+                     <surname type="birth">Boucher</surname>
+                     <surname type="birth">d'Orsay</surname>
+                     <roleName>marquise de Montchevreuil</roleName>
+                  </persName>
+               </person>
+               <person sex="F" xml:id="madame_nevers">
+                  <persName
+                     ref="https://data.bnf.fr/13003675/diane-gabrielle_de_damas_de_thianges_nevers/">
+                     <forename>Diane-Gabrielle</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Damas</surname>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Thianges</surname>
+                     <roleName>duchesse de Nevers</roleName>
+                  </persName>
+                  <birth when="1656">1656</birth>
+                  <death when="1715">1715</death>
+               </person>
+               <person sex="M" xml:id="monsieur_nevers">
+                  <persName
+                     ref="https://data.bnf.fr/fr/14811880/philippe-julien_mancini-mazarini_nevers/">
+                     <forename>Philippe-Julien</forename>
+                     <surname type="birth">Mancini-Mazarini</surname>
+                     <roleName>duc de Nevers</roleName>
+                  </persName>
+                  <birth when="1641">1641</birth>
+                  <death when="1707">1707</death>
+               </person>
+               <person sex="M" xml:id="monsieur_perthuis">
+                  <persName>
+                     <nameLink>de</nameLink>
+                     <surname>Perthuis</surname>
+                  </persName>
+               </person>
+               <person sex="M" xml:id="monsieur_poissy">
+                  <persName>
+                     <forename>Claude</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Longueuil</surname>
+                     <roleName>marquis de Poissy</roleName>
+                  </persName>
+                  <birth when="1668">1668</birth>
+                  <death when="1715">1715</death>
+                  <note>Il épouse finalement en 1698 en seconde noce <persName
+                        ref="#mademoiselle_varangeville">Charlotte-Roque de
+                     Varangeville</persName>.</note>
+               </person>
+               <person sex="F" xml:id="madame_pracontal">
+                  <persName>
+                     <forename>Catherine-Françoise</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Mornay-Montchevreuil</surname>
+                  </persName>
+                  <birth when="1678">1678?</birth>
+                  <death when="1729">1729</death>
+               </person>
+               <person sex="M" xml:id="monsieur_pracontal">
+                  <persName>
+                     <forename>Armand</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Pracontal</surname>
+                  </persName>
+                  <death when="1703">1703</death>
+               </person>
+               <person sex="F" xml:id="mademoiselle_royan">
+                  <persName>
+                     <forename>Marie-Anne</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Trémoille</surname>
+                     <roleName>marquise de Royan</roleName>
+                  </persName>
+                  <birth when="1676">1676</birth>
+                  <death when="1708">1708</death>
+               </person>
+               <person sex="M" xml:id="monsieur_saint_geran">
+                  <persName ref="https://data.bnf.fr/fr/14974106/bernard_de_la_guiche/">
+                     <forename>Bernard</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">La Guiche</surname>
+                     <roleName>comte de Saint-Géran</roleName>
+                  </persName>
+                  <birth when="1642">1642</birth>
+                  <death when="1696">1696</death>
+               </person>
+               <person sex="F" xml:id="marquise_saint_herem">
+                  <persName>
+                     <forename>Marie-Geneviève</forename>
+                     <surname type="birth">Rioult</surname>
+                     <surname type="birth">de Douilly</surname>
+                     <roleName>marquise de Saint-Hérem</roleName>
+                  </persName>
+                  <birth when="1673">1673?</birth>
+                  <death when="1751">1751</death>
+                  <note>Elle épouse Charles-Louis de Montmorin-Saint-Hérem le 6 février 1696.</note>
+               </person>
+               <person sex="F" xml:id="duchesse_saint_simon">
+                  <persName>
+                     <forename>Marie-Gabrielle</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Durfort</surname>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Lorges</surname>
+                     <roleName>duchesse de Saint-Simon</roleName>
+                     <addName type="other_forename">Geneviève-François</addName>
+                  </persName>
+                  <birth when="1678">1678</birth>
+                  <death when="1743">1743</death>
+                  <note>Epouse de <persName
+                        ref="https://data.bnf.fr/fr/11923406/louis_de_rouvroy_saint-simon/">Louis de
+                        Rouvroy, duc de Saint-Simon</persName>.</note>
+               </person>
+               <person sex="M" xml:id="abbe_testu">
+                  <persName ref="https://data.bnf.fr/fr/12918608/jacques_testu/">
+                     <forename>Jacques</forename>
+                     <surname>Testu</surname>
+                     <surname>de Belval</surname>
+                  </persName>
+                  <birth when="1626">1626?</birth>
+                  <death when="1706">1706</death>
+                  <occupation>abbé</occupation>
+               </person>
+               <person sex="F" xml:id="duchesse_tremoille">
+                  <persName>
+                     <forename>Madeleine</forename>
+                     <nameLink>de</nameLink>
+                     <surname type="birth">Créquy</surname>
+                     <roleName>duchesse de la Trémoille</roleName>
+                  </persName>
+                  <birth when="1662">1662</birth>
+                  <death when="1707">1707</death>
+               </person>
+               <person sex="M" xml:id="monsieur_villacerf">
+                  <persName>
+                     <forename>Pierre-Gilbert</forename>
+                     <surname type="birth">Colbert</surname>
+                     <roleName>marquis de Villacerf</roleName>
+                  </persName>
+                  <birth when="1671">1671?</birth>
+                  <death when="1733">1733</death>
+               </person>
+               <person sex="F" xml:id="duchesse_villeroi">
+                  <persName>
+                     <forename>Marguerite</forename>
+                     <surname type="birth">Le Tellier Louvois</surname>
+                     <roleName>duchesse de Villeroy</roleName>
+                  </persName>
+                  <birth when="1679">1679?</birth>
+                  <death when="1711">1711</death>
+                  <note>Marguerite Le Tellier Louvois se marie en 1694 avec Louis Nicolas de
+                     Neufville de Villeroy. La même année, ce dernier reçoit par transmission du
+                     vivant de son père (François de Neufville de Villeroy) le titre de duc de
+                     Villeroy. Son épouse devient donc duchesse de Villeroy à la place de sa mère,
+                     Marie-Marguerite de Cossé-Brissac. Cependant, l'habitude pousse peut-être les
+                     contemporains à continuer à nommer Marie-Marguerite de Cossé-Brissac "duchesse
+                     de Villeroy".</note>
+               </person>
+               <listRelation>
+                  <relation name="spouse" mutual="#duc_albret #duchesse_albret"/>
+                  <relation name="uncle_nephew" active="#cardinal_bouillon" passive="#duc_albret"/>
+                  <relation name="fiance" mutual="#mademoiselle_bosmelet #monsieur_la_force"/>
+                  <relation name="spouse" mutual="#monsieur_bouteville #madame_bouteville"/>
+                  <relation name="grandparents_grandchildren" active="#madame_bouteville"
+                     passive="#monsieur_chatillon"/>
+                  <relation name="fiance" mutual="#mademoiselle_brinon #monsieur_villacerf"/>
+                  <relation name="spouse" mutual="#monsieur_brinon #madame_brinon"/>
+                  <relation name="parents_children" active="#monsieur_brinon #madame_brinon"
+                     passive="#duchesse_brinon"/>
+                  <relation name="brother_sister" active="#monsieur_pracontal"
+                     passive="#madame_busseaux"/>
+                  <relation name="fiance" mutual="#monsieur_chatillon #mademoiselle_royan"/>
+                  <relation name="spouse" mutual="#monsieur_coulanges #madame_coulanges"/>
+                  <relation name="grandparents_grandchildren" active="#duchesse_crequi"
+                     passive="#duchesse_albret"/>
+                  <relation name="parents_children" active="#duchesse_tremoille"
+                     passive="#duchesse_albret"/>
+                  <relation name="parents_children" active="#monsieur_fremont"
+                     passive="#madame_fremont"/>
+                  <relation name="sister_sister" active="#madame_fremont"
+                     passive="#marechale_lorges"/>
+                  <relation name="parents_children" active="#madame_fremont"
+                     passive="#marquise_saint_herem"/>
+                  <relation name="grandparents_grandchildren" active="#monsieur_fremont"
+                     passive="#marquise_saint_herem"/>
+                  <relation name="parents_children" active="#marechale_lorges"
+                     passive="#duchesse_lauzun"/>
+                  <relation name="parents_children" active="#marechale_lorges"
+                     passive="#duchesse_saint_simon"/>
+                  <relation name="sister_sister" active="#duchesse_lauzun"
+                     passive="#duchesse_saint_simon"/>
+                  <relation name="spouse" mutual="#duchesse_lauzun #monsieur_lauzun"/>
+                  <relation name="parents_children" active="#louis_xiv" passive="#monseigneur"/>
+                  <relation name="parents_children" active="#monsieur_luxembourg"
+                     passive="#mademoiselle_luxembourg"/>
+                  <relation name="spouse" mutual="#monsieur_marsan #madame_marsan"/>
+                  <relation name="parents_children" active="#madame_montchevreuil"
+                     passive="#madame_pracontal"/>
+                  <relation name="spouse" mutual="#monsieur_nevers #madame_nevers"/>
+                  <relation name="ex_fiance" active="#mademoiselle_bagnols"
+                     passive="#monsieur_poissy"/>
+                  <relation name="spouse" mutual="#madame_pracontal #monsieur_pracontal"/>
+                  <relation name="cousin" active="#monsieur_coulanges" passive="#madame_pracontal"/>
+               </listRelation>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div1 decls="#letter1362" type="letter" xml:lang="fr"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f279.item" n="1362"> <!-- très bien -->
+            <head>LETTRE MCCCLXII</head>
+            <opener> <name>DE <persName ref="#marquise_sevigne">MADAME DE SÉVIGNÉ</persName> AU <persName
+                  ref="#president_moulceau">PRÉSIDENT DE MOULCEAU</persName></name> <lb/>
+               <dateline>A <placeName ref="#chateau_grignan">Grignan</placeName>, le <date
+                     when="1696-02-04">samedi 4 février 1696</date>,</dateline>
+            </opener>
+            <p>Je ne me suis point trompée, <persName ref="#president_moulceau">Monsieur</persName>,
+               quand j'ai cru que vous seriez touché de ma peine, et que vous feriez toute la
+               diligence possible pour la soulager. Votre ordonnance de <persName
+                  ref="#monsieur_barbeyrac">M. Barbeyrac</persName> et votre lettre ont eu des
+               ailes, comme vous le souhaitiez, et il semble que cette petite fièvre qui paroissoit
+               si lente, en ait eu aussi pour fuir aux approches seulement du nom de <persName
+                  ref="#monsieur_barbeyrac">M. Barbeyrac</persName>. Tout de bon, <persName
+                  ref="#president_moulceau">Monsieur</persName>, il y a du miracle à un si prompt
+               changement ; et je ne saurois douter que vos souhaits et vos prières n'y aient
+               contribué. Jugez de ma reconnoissance par leur effet. Ma <persName
+                  ref="#françoise_sevigne">fille</persName>
+               <!-- plutôt utiliser rs quand le nom n'est pas cité explicitement --> est de moitié de tout ce que je vous dis
+               ici : elle vous fait mille remerciements, et vous conjure d'en faire beaucoup à
+                  <persName ref="#monsieur_barbeyrac">M. Barbeyrac</persName>. Nous sommes trop
+               heureuses de n'avoir plus qu'à prendre patience, et de la rhubarbe, dont elle se
+               trouve tout-à-fait bien. Nous ne doutons pas que dans cet état de repos, <persName
+                  ref="#monsieur_barbeyrac">M. Barbeyrac</persName> n'approuve ce remède, avec un
+               régime qui est quelquefois le meilleur de tous<ref type="note" n="1" target="#note1"/>. Remerciez Dieu,
+                  <persName ref="#president_moulceau">Monsieur</persName>, et pour vous, et pour
+               nous, car nous ne saurions douter que vous ne soyez intéressé dans cette
+               reconnoissance ; et puis, <persName ref="#president_moulceau">Monsieur</persName>,
+               jetez les yeux sur tous les habitants de <placeName  ref="#chateau_grignan">ce
+                  château</placeName>, et jugez de leurs sentiments pour vous.</p>
+            <closer/>
+         </div1>
+         <div1 decls="#letter1363" type="letter" xml:lang="fr"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f280.item" n="1363">
+            <head>LETTRE MCCCLXIII</head>
+            <opener><name>DE <persName ref="#monsieur_coulanges">MONSIEUR DE COULANGES</persName> A
+                  <persName ref="#marquise_sevigne">MADAME DE SÉVIGNÉ</persName></name> <lb/><dateline>A
+                     <placeName ref="#saint_martin">Saint-Martin, </placeName><date when="1696-02-17"
+                     >le 17 février 1696,</date></dateline>
+            </opener>
+            <div2 type="beginning">
+               <p>Mais pourquoi ne pas écrire quelquefois in-folio, quand on trouve un beau et bon
+                  papier qui vous y invite ? J'ai reçu ici, <persName ref="#marquise_sevigne">ma
+                     très-aimable gouvernante</persName>, la grande et la petite lettre que vous
+                  avez bien voulu m'écrire en même jour pour répondre à toutes les miennes ; et je
+                  suis toujours charmé de votre style et de votre bon et loyal commerce. Il y a
+                  tantôt quinze jours que je suis ici auprès de cet adorable <persName
+                     ref="#cardinal_bouillon">cardinal</persName>, et il y a tantôt quinze jours que
+                  je suis l'homme du monde le plus heureux ; bonne compagnie, partout de grands
+                  feux, bonne symphonie, mille et mille jeux, table bien servie, vins délicieux ;
+                  enfin, <persName ref="#marquise_sevigne">Madame</persName>, voici le pays de
+                  cocagne au pied de la lettre. Les officiers même de cette maison ont une rage de
+                  toujours apprendre, quoiqu'ils soient maîtres passés ; en sorte qu'ils nous feront
+                  crever à la fin : ils possédoient au suprême degré tous les ragoûts les plus
+                  exquis de France et d'Italie ; les voilà devenus apprentifs sous le meilleur
+                  officier de cuisine d'Angleterre, pour être bientôt en ragoûts anglois beaucoup
+                  plus savants que lui ; nous ne savons donc plus où nous en sommes ; tous nos
+                  ragoûts parlent des langues différentes, mais ils se font si bien entendre, que
+                  nous les mangeons, sous quelque figure et dans quelque sauce qu'ils se présentent.
+                  Vous voyez bien, <persName ref="#marquise_sevigne">Madame</persName>, que ce seul
+                  article de la bonne chère demandoit un in-folio<ref type="note" n="1" target="#note2"/>.
+                  Voici, en vérité, une maison admirable, et un maître de maison qu'on ne peut assez
+                  adorer : je n'ai pas manqué de lui faire tous vos compliments, et je ne vous écris
+                  d'ici, que parce que je crois le moment arrivé qu'il pourra lui-même y répondre,
+                  comme bien des fois il m'a témoigné en avoir envie. Nous avons eu toute la semaine
+                  passée beaucoup de frères, de neveux et de nièces ; mais depuis lundi, <persName
+                     ref="#cardinal_bouillon">M. le cardinal</persName> en est réduit à ses deux
+                  fidèles commensaux, l'aimable <persName ref="#richard_hamilton">Richard
+                     Hamilton</persName>, pour l'un, et le jeune Coulanges pour l'autre, et vous ne
+                  sauriez croire combien il s'accommode de cette solitude, il s'en accommode même si
+                  bien, que nous n'entendons pas plus parler de ce qui se passe à <placeName
+                     ref="#paris">Paris</placeName> et à la <placeName ref="#versailles"
+                     >cour</placeName>, que si nous étions à <placeName ref="#la_trappe">La
+                     Trappe</placeName> ; en sorte que voici un tome tout séparé des autres que je
+                  vous ai envoyés sans savoir seulement si tous les mariages résolus ont été
+                  célébrés, et si tous les mariages proposés ont été, ou sont en voie d'aller à
+                  bonne fin. Vous avez su l'extrémité de <persName ref="#duchesse_crequi">madame la
+                     duchesse de Créqui</persName>, et vous avez su ensuite sa résurrection, qui a
+                  donné une excessive joie à <persName ref="#cardinal_bouillon">M. le
+                     cardinal</persName>, sa longue vie étant fort nécessaire pour le bonheur de
+                  <persName ref="#duc_albret">M. le duc</persName> et de <persName ref="#duchesse_albret">madame la duchesse
+                     d'Albret</persName> ; et c'est depuis cette résurrection que <persName
+                     ref="#cardinal_bouillon">M. le cardinal</persName> a renoncé à toutes les
+                  nouvelles du monde pour vaquer à lui-même, et à une infinité d'ouvriers qui
+                  travaillent sans fin et sans cesse pour la perfection, sans contredit, d'un des
+                  plus beaux jardins de l'Europe. Je suis ravi de la meilleure santé de <persName
+                     ref="#françoise_sevigne">notre comtesse</persName> ; savez-vous bien que c'est
+                  un très-bon signe de vie, que d'avoir voulu elle-même lire mes lettres, et y
+                  donner les tons qu'elles demandent ? Vous m'assurez qu'elle a bien ri en de
+                  certains endroits, et que <persName ref="#presidente_coigneux">la
+                     présidente</persName> cuite au four<ref type="note" n="2" target="#note3"/> ne lui a point déplu. Mais ce que j'admire de vous
+                  autres, <persName ref="#marquise_sevigne #françoise_sevigne">Mesdames</persName>,
+                  si versées dans l'histoire, et si instruites des bonnes maisons de France, c'est
+                  que vous ne sachiez pas que la maison de Douilli est séparée en deux branches ;
+                  que l'une a produit <persName ref="#marquise_saint_herem">la jeune marquise de
+                     Saint-Hérem</persName> et l'autre, la femme que M. de P... vient d'épouser : en
+                  sorte que ce sont deux cousines germaines, qui se sont mariées presque en même
+                  temps. L'une, toute resplendissante d'une <persName ref="#madame_fremont"
+                     >Frémont</persName><ref type="note" n="3" target="#note4"/> pour mère, qui lui donne <persName ref="#marechale_lorges"
+                     >une maréchale de Lorges</persName> pour cousine germaine, et des <persName
+                        ref="#duchesse_saint_simon">duchesses de Saint-Simon</persName> et <persName ref="#duchesse_lauzun">de
+                     Lauzun</persName> pour nièces à la mode de Bretagne ; l'une, dis-je, est entrée
+                  dans la maison de Montmorin ; et l'autre avec moins d'ambition, quoique fille
+                  d'une mère remariée à <persName ref="#monsieur_l_hopital">M. de
+                     l'Hôpital</persName> s'est contentée d'entrer dans la maison de Ber… ; et voilà
+                  par ce moyen l'énigme développée, pour l'explication de laquelle vous avez recouru
+                  à moi<ref type="note" n="4" target="#note5"/>. Nous avons encore deux mois à être ici, ils
+                  passeront bien vite ; dès que je serai à <placeName ref="#paris"
+                  >Paris</placeName>, je me remettrai dans le commerce ; et aussitôt je vous
+                  donnerai la continuation des tomes précédents. Je voudrois bien que vous y
+                  puissiez trouver le mariage de <persName ref="#mademoiselle_bagnols">mademoiselle
+                     de Bagnols</persName> avec <persName ref="#monsieur_poissy">M. de
+                     Poissy</persName> ; mais c'est un enfant si difficile à baptiser, que je n'ose
+                  en espérer la conclusion, quoiqu'on m'ait mandé que l'affaire étoit en bon chemin.
+                  Adieu, <persName ref="#marquise_sevigne #françoise_sevigne">Mesdames</persName>,
+                  je m'en vais porter ma feuille à <persName ref="#cardinal_bouillon">notre illustre
+                     cardinal</persName> pour illuminer au moins le reste de cette page, et vous
+                  rendre par-là ma lettre d'un poids beaucoup au-dessus de ce qu'elle vaut. Mille
+                  compliments, je vous supplie, et mille respects à tous les habitants du <placeName
+                     ref="#chateau_grignan">royal château</placeName> où vous êtes. <persName
+                     ref="#pauline_simiane">Madame de Simiane</persName> est la maîtresse de ne
+                  point faire de réponse à mes lettres ; mais j'aurois souhaité au moins pouvoir
+                  dire quelque chose de sa part à <persName ref="#duchesse_villeroi">la duchesse de
+                     Villeroi</persName>, qui lui avoit si joliment écrit dans ma lettre, et qui
+                  m'en demande des nouvelles tous les jours.</p>
+            </div2>
+
+            <div2 type="addition">
+               <opener><name>DE <persName ref="#cardinal_bouillon">M. LE CARDINAL DE
+                  BOUILLON</persName></name></opener>
+               <p>Il est moins humiliant pour moi, <persName ref="#marquise_sevigne"
+                     >Madame</persName>, de vous avouer ingénument la faute que j'ai faite de ne
+                  vous avoir donné aucun signe de vie à l'occasion de tous vos mariages : non plus
+                  qu'à toute la maison de Grignan que j'honore et que j'aime infiniment ; cela est,
+                  dis-je, moins humiliant que d'entreprendre d'ajouter quelques mots à la lettre de
+                     <persName ref="#monsieur_coulanges">M. de Coulanges</persName>, qui est digne
+                  de vous et de lui. Il faut pourtant que je vous assure qu'en lieu du monde vous
+                  n'avez un serviteur qui vous soit si absolument acquis que je le suis.</p>
+            </div2>
+
+            <div2 type="end">
+               <opener><name><persName ref="#monsieur_coulanges">MONSIEUR DE COULANGES</persName>
+                  continue.</name></opener>
+               <p>Notre cousine de <persName ref="#madame_pracontal">Pracontal</persName><ref type="note" n="5" target="#note6"/> part incessamment pour <placeName ref="#montelimar"
+                     >Montélimart</placeName> ; elle vous ira voir, et n'aura pas envie de renoncer
+                  ses parents : jamais sa mère ne lui avoit dit que nous en fussions, et sans moi
+                  elle l'ignoreroit encore. C'est une très-aimable femme, qui va passer bien des
+                  mois en province ; j'en suis fâché, car je commençois fort à m'en accommoder ; son
+                  mari a aussi du mérite, mais il ne la perd pas de vue : si c'est tendresse, je
+                  n'ai rien à dire, quoique cette tendresse soit fort incommode quelquefois ; si
+                  c'est jalousie, c'est un effet de la dévotion de <persName
+                     ref="#madame_montchevreuil">madame de Montchevreuil</persName>, à qui il n'a
+                  pas tenu qu'elle n'ait perdu sa fille auprès de son mari, et de tout le genre
+                  humain. Je suis assuré que vous la trouverez fort raisonnable, notre cousine ; que
+                  vous vous en accommoderez fort, et que vous ne serez point fâchée de lui étaler
+                  toutes les grandeurs de <placeName ref="#chateau_grignan">Grignan</placeName>.
+                  Elle m'a prié de vous la recommander, et je vous prie de lui dire, quand vous la
+                  verrez, que je vous l'ai recommandée avec tendresse et avec éloge. Son mari
+                  l'établira dans une terre auprès de <placeName ref="#lyon">Lyon</placeName>
+                  pendant toute la campagne, avec sa belle-sœur <persName ref="#madame_busseaux"
+                     >madame Busseaux</persName>.</p>
+            </div2>
+            <closer/>
+         </div1>
+
+         <div1 decls="#letter1364" type="letter" xml:lang="fr"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f286.item" n="1364">
+            <head>LETTRE MCCCLXIV</head>
+            <opener><name>DE <persName ref="#monsieur_coulanges">MONSIEUR DE COULANGES</persName> A
+                  <persName ref="#marquise_sevigne #françoise_sevigne">MESDAMES DE SÉVIGNÉ ET DE
+                  GRIGNAN</persName></name><dateline>A <placeName ref="#paris">Paris, </placeName><date
+                     when="1696-02-20">le 20 février 1696,</date></dateline>
+            </opener>
+            <p>Voici un esquif que j'envoie après le vaisseau qui est parti de <placeName
+                  ref="saint_martin">Saint-Martin</placeName>, pour vous dire premièrement, que me
+               voici arrivé, et que je reçus samedi au soir, à l'heure que j'y pensois le moins,
+               lettres sur lettres, que <persName ref="madame_louvois">madame de Louvois</persName>
+               étoit depuis mardi tombée dans des coliques si cruelles et si violentes, que la
+               dernière, arrivée vendredi sur le soir, avoit fait peur, et fait accourir tous ses
+               parents et tous ses amis ; en sorte que, sans hésiter, je partis hier à quatre heures
+               du matin de <placeName ref="saint_martin">Saint-Martin</placeName> pour me rendre
+               auprès d'elle et à mon devoir ; je l'ai trouvée fort abattue, mais hors de ses
+               violentes douleurs par les remèdes et par une saignée qu'on lui a faits ; obligée
+               cependant de se tenir dans son lit sans remuer, et même sans beaucoup parler, de peur
+               de fortifier les douleurs qu'elle a toujours, mais plus aisées à supporter que celles
+               qui viennent par accès. Voilà, <persName ref="#marquise_sevigne #françoise_sevigne"
+                  >Mesdames</persName>, comme en ce monde chacun a ses peines et ses maux. J'ai été
+               fort bien reçu, et mon zèle a été fort approuvé ; mais quoique cette maladie ne
+               paroisse point dangereuse, et que <persName ref="madame_louvois">madame de
+                  Louvois</persName> fût beaucoup mieux hier sur le minuit, je n'en serai pas moins
+               arrêté ici pendant quelques jours. Je fus hier très-fâché d'être obligé de quitter
+                  <placeName ref="saint_martin">Saint-Martin</placeName>, d'autant plus que samedi
+               après dîner, <persName ref="#duc_albret #duchesse_albret">le duc et la duchesse
+                  d'Albret</persName>, joliment et en bon ménage, y étoient venus surprendre
+                  <persName ref="#cardinal_bouillon">le cardinal</persName> contre ses ordres, car
+               il ne vouloit point que <persName ref="#duchesse_albret">la duchesse</persName> vît
+                  <placeName ref="#saint_martin">Saint-Martin</placeName> avant le printemps ; c'est
+               un goût de maître de maison que vous comprenez fort bien ; mais il ne fut pas fâché
+               pourtant de cette surprise, qui l'avoit fait résoudre de rester encore deux jours à
+                  <placeName ref="#saint_martin">Saint-Martin</placeName>, pour leur expliquer au
+               moins tout ce qui pareroit sa maison et ses jardins dans la belle saison, et j'étois
+               fort nécessaire pour le seconder. Le jeune ménage avoit été ravi de me trouver, et la
+               journée d'hier étoit destinée pour lier, entre les pots et les pintes, une grande
+               connoissance avec <persName ref="#duchesse_albret">la duchesse</persName>, qui est si
+               bien faite, si honnête, si polie, si bien élevée, qu'elle est pour moi une beauté
+               achevée, quoiqu'elle ne soit rien moins que belle, et qu'elle n'ait que la plus noble
+               et la plus riche taille qu'on puisse jamais voir. Voilà donc, <persName
+                  ref="#marquise_sevigne #françoise_sevigne">Mesdames</persName>, la première partie
+               de mon discours, qui n'auroit pourtant pas fait partir l'esquif, si la seconde ne me
+               pressoit, pour faire, sans perdre de temps, réparation d'honneur à <persName
+                  ref="#pauline_simiane">madame de Simiane</persName>. Je passai hier la journée
+               avec <persName ref="#duchesse_villeroi">la duchesse de Villeroi</persName>, qui me
+               demandant si je n'avois point de ses nouvelles, me dit qu'elle en avoit reçu une
+               très-aimable réponse ; aussitôt je remerciai <persName ref="#duchesse_villeroi">la
+                  duchesse</persName> de m'avoir appris une si bonne nouvelle, et lui expliquai
+               pourquoi, car je n'aimois point que <persName ref="#pauline_simiane">madame de
+                  Simiane</persName> ne fût plus l'exacte et la régulière
+                  <persName>Pauline</persName>. Je suis ravi, comme vous pouvez croire, qu'elle
+               continue dans toutes ses perfections, et je lui demande pardon de l'avoir soupçonnée
+               de cette peccadille. <persName ref="#duchesse_villeroi">La duchesse de
+                  Villeroi</persName> devient fort jolie et fort aimable ; voilà pourquoi j'étois
+               fâché que cette allumette n'eût point pris. J'ai retrouvé ici la rage des mariages ;
+               c'est demain celui de <persName ref="#monsieur_marsan">M. de Marsan</persName> avez
+                  <persName ref="madame_marsan">madame de Seignelay</persName> : ils se donnent
+               réciproquement tous leurs meubles et la jouissance de vingt mille livres de rente au
+               dernier vivant, en cas qu'il n'y ait point d'enfants ; le public se déchaîne assez
+               contre <persName ref="#madame_marsan">madame de Seignelay</persName> ; bien des gens
+               trouvent que d'être à soi, et de jouir de soixante et dix mille livres de rente,
+               étoit un état fort heureux ; et d'autres lui pardonnent d'avoir voulu s'en retirer
+               par un rang aussi distingué que celui qu'elle va avoir, et par prendre un mari, qu'on
+               est assez persuadé qui vivra fort bien avec elle. Après avoir voulu épouser <persName
+                  ref="#monsieur_luxembourg">M. de Luxembourg</persName>, on ne lui auroit plus su
+               de gré de passer en viduité le reste de ses jours ; et son dessein a été de se
+               dépiquer, et toute sa famille en même temps. Ce sera demain à minuit cette grande
+               cérémonie. C'est demain aussi le mariage du <persName ref="#monsieur_villacerf">fils
+                  de Villacerf</persName>, avec <persName ref="#mademoiselle_brinon">mademoiselle de
+                  Brinon-Senneterre</persName> ; on ne comprend pas bien le goût de <persName
+                     ref="#monsieur_brinon">M.</persName> et de <persName ref="#madame_brinon">madame de Brinon</persName>, qui
+               donnent cinquante mille écus ; mais voilà comme tout se prend en ce monde. On assure
+               le mariage de <persName ref="#mademoiselle_royan">mademoiselle de Royan</persName>
+               avec le <persName ref="#duc_chatillon">comte de Luxe</persName>, maintenant <persName
+                  ref="#monsieur_chatillon">duc de Châtillon</persName>. On parle de celui de
+                  <persName ref="#mademoiselle_bosmelet">mademoiselle de Bosmelet</persName> avec le
+               jeune <persName ref="#monsieur_la_force">duc de La Force</persName>, qui seroit bien
+               son fils. J'ai trouvé en arrivant ici le mariage de <persName
+                  ref="#mademoiselle_bagnols">mademoiselle de Bagnols</persName> avec <persName
+                  ref="#monsieur_poissy">M. de Poissy</persName> sur le côté, je ne sais par quelle
+               faute ; il y a du pour et du contre dans tout cela. </p>
+            <closer>
+               <salute>Adieu, <persName ref="#marquise_sevigne #françoise_sevigne"
+                     >Mesdames</persName>, je vous adore et vous embrasse.</salute>
+            </closer>
+         </div1>
+         <div1 decls="#letter1365" type="letter" xml:lang="fr"
+            facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f290.item" n="1365">
+            <head>LETTRE MCCCLXV</head>
+            <opener> <name>DE <persName ref="#monsieur_coulanges">MONSIEUR DE COULANGES</persName> A
+                  <persName ref="#pauline_simiane">MADAME DE SIMIANE</persName></name><dateline>A
+                     <placeName ref="#paris">Paris, </placeName><date when="1696-02-27">le 27
+                     février 1696,</date></dateline>
+            </opener>
+            <p>Vous ne manquez à rien, divine <persName ref="#pauline_simiane">Pauline</persName>,
+               et j'ai bien des pardons à vous demander d'avoir soupçonné, comme j'ai fait, votre
+               régularité ; je me garderai bien désormais de tomber dans la faute énorme que j'ai
+               commise envers vous ; je ne veux point passer auprès de vous pour un petit homme
+               épineux, et vous pouvez fort bien écrire à vos bons points et aisements, comme on dit
+               ; et quelquefois même ne me faire aucune réponse, sans que jamais j'en sois offensé.
+               Il faut bien quelque petit commerce entre nous, pour entretenir connoissance ; mais
+               il faut qu'il soit libre, et le mettre en œuvre, quand la fantaisie vous en prend :
+               n'est-ce pas bien parler ? Il y a huit jours que je suis à <placeName ref="#paris"
+                  >Paris</placeName>, à donner presque tout mon temps à <persName
+                  ref="#madame_louvois">madame de Louvois</persName>, qui est sans colique
+               véritablement, mais qui a été si mal menée, et qui a tant de vapeurs, qu'elle a
+               toutes les peines du monde à se remettre. L'ambassadeur de Portugal fit hier son
+               entrée solennelle à <placeName ref="#paris">Paris</placeName> par la <placeName
+                  ref="#porte_saint_antoine">porte Saint-Antoine</placeName>, et fit le tour de la
+                  <placeName ref="#place_royale">Place Royale</placeName> : le pauvre peuple de
+                  <placeName ref="#paris">Paris</placeName> est si affamé de spectacles, que c'en
+               fut un pour lui que cette entrée, qui n'auroit pas été regardée en un autre temps.
+               L'ambassadeur a une livrée grise avec des galons d'argent et des veloutés bleus, et
+               quatre beaux carrosses ; mais une honte pour la France, ce sont les carrosses et les
+               chevaux qu'on avoit envoyés pour lui faire cortège. Cependant on ne pouvoit pas se
+               remuer dans les rues, tant il y avoit de monde. La <placeName ref="#place_royale"
+                  >Place Royale</placeName>, avec des tapis sur les fenêtres, et à tous les balcons,
+               n'étoit pas un des moins beaux endroits de la ville à faire voir à cet ambassadeur :
+               aussi en fit-il le tour, et il y vit belle et honorable compagnie sur le balcon de
+                  l'<placeName ref="#hotel_chaulnes">hôtel de Chaulnes</placeName>, où avoient dîné
+                  <persName ref="#cardinal_bouillon">M. le cardinal de Bouillon</persName>, mesdames
+               les duchesses de <persName ref="#duchesse_tremoille">La Trémouille</persName> et
+                  <persName ref="#duchesse_albret">d'Albret</persName>, <persName
+                  ref="#madame_coulanges">madame de Coulanges</persName>, <persName
+                  ref="#abbe_testu">l'abbé Testu</persName>, <persName ref="abbe_d_auvergne">l'abbé
+                  d'Auvergne</persName>, <persName ref="#comte_albret">le comte d'Albret</persName>
+               et <persName ref="#monsieur_coulanges">moi</persName> ; et où beaucoup d'autres gens
+               considérables se rendirent, après le dîner, pour le spectacle ; le <persName
+                  ref="#chevalier_bouillon">chevalier de Bouillon</persName> entre autres, qu'on
+               présenta et qu'on fit baiser à votre amie <persName ref="#madame_coulanges">madame de
+                  Coulanges</persName>, comme un homme fort extraordinaire<ref type="note" n="1" target="#note7"/>.</p> <p>Je m'en
+               vais de ce pas dîner à <placeName ref="#montmartre">Montmartre</placeName>, où
+               <persName ref="#monsieur_nevers">M.</persName> et <persName ref="#madame_nevers">madame de Nevers</persName>,
+               plus belle et plus aimable que jamais, m'ont donné rendez-vous. Je crois que je
+               n'aurai pas beaucoup de faim quand j'en reviendrai. Il ne faut pas cependant que je
+               manque ce soir à <persName ref="#monsieur_lamoignon">M. de Lamoignon</persName>, en
+               dussé - je crever. N'allez point conter ma vie à <persName ref="#chevalier_grignan"
+                  >M. le chevalier de Grignan</persName> ; car ma vie offense tellement tous les
+               goutteux, qu'il n'y a malheur qu'ils ne me souhaitent. Dernièrement <persName
+                  ref="#monsieur_saint_geran">M. de Saint-Géran</persName> fut si offensé de me voir
+               insolemment taper du pied dans le temps qu'il ne pouvoit se remuer, qu'il m'auroit
+               étranglé, s'il l'avoit pu. Rien n'est assurément plus extraordinaire que l'état jeune
+               et florissant dans lequel je me trouve : vous perdez bien de n'être point ici pour me
+               voir ; combien danserions-nous ensemble aux chansons ! c'est un divertissement à la
+               mode. <persName ref="#monsieur_marsan #madame_marsan">Monsieur et madame de
+                  Marsan</persName> sont allés à <placeName ref="#versailles"
+               >Versailles</placeName>, rien n'est pareil à leur contentement. Mais n'êtes-vous pas
+               trop heureuse, divine <persName ref="#pauline_simiane">Pauline</persName>, de n'avoir
+               point épousé <persName ref="#monsieur_lauzun">M. de Lauzun</persName>, qui, sans rime
+               et sans raison, a planté là sa femme ? On conte des histoires de lui qui ne finissent
+               point, mais que je n'ai pas le temps de vous écrire. C'est pour le lundi gras le
+               mariage du nouveau <persName ref="#monsieur_chatillon">duc de Châtillon</persName>
+               avec <persName ref="#mademoiselle_royan">mademoiselle de Royan</persName>. La bonne
+               femme <persName ref="#madame_bouteville">madame de Bouteville</persName><ref type="note" n="2" target="#note8"/> lui a envoyé pour quatre-vingt mille
+               francs de pierreries. Il n'y a pas de mariage encore plus heureux que celui de
+                  <persName ref="#monsieur_luxembourg">M. de Luxembourg</persName>, qui a perdu sa
+               petite-fille<ref type="note" n="3" target="#note9"/> du
+               premier lit, au grand contentement de tous ceux qui en ont hérité. <persName
+                  ref="#monsieur_pracontal">Monsieur</persName> et <persName ref="#madame_pracontal">madame de
+                  Pracontal</persName> partent dimanche pour aller incessamment vous voir. Je vous
+               recommande <persName ref="#madame_pracontal">madame de Pracontal</persName>, qui est
+               notre cousine, et que j'aime comme ma vie : je suis très-affligée qu'elle nous quitte
+               ; vous la trouverez très-aimable et de bonne compagnie ; elle passera bien du temps
+               hors de <placeName ref="#paris">Paris</placeName>, ou je me trompe fort. <persName
+                  ref="#monsieur_marillac">M. de Marillac</persName> a perdu un frère abbé.
+                  <persName ref="#monseigneur">MONSEIGNEUR</persName> est à <placeName ref="#chateau_meudon"
+                  >Meudon</placeName>. <persName ref="#louis_xiv">Le roi</persName> s'en va mercredi
+               à <placeName ref="#chateau_marly">Marly</placeName> ; et le Jubilé, contre vent et marée,
+               commencera dimanche prochain, dont le peuple est affligé ; il est dans l'habitude
+               d'employer les trois jours gras à un autre usage qu'à prier Dieu. Le <persName
+                  ref="#pere_la_ferte">père de La Ferté</persName>, jésuite, qui prêche avec un
+               succès au-dessus de son âge et de sa qualité, par un zèle louable et qui prouve sa
+               vocation, a obtenu de ses supérieurs la permission de s'en aller en Canada<ref type="note" n="4" target="#note10"/>.</p>
+            <closer>
+               <salute> Adieu, belle et divine <persName ref="#pauline_simiane">Pauline</persName>,
+                  je n'en sais pas davantage. Je suis ravi de la meilleure santé de <persName
+                     ref="#françoise_sevigne">madame votre mère</persName> ; mais nous n'osons nous
+                  flatter de la voir ici plus tôt qu'à la fin de l'automne, et c'est nous mettre le
+                  carême bien haut.</salute>
+            </closer>
+         </div1>
+      </body>
+   </text>
+</TEI>
